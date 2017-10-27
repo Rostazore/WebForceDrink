@@ -85,3 +85,13 @@ nav ul li a {
 #recettes .tropical {
     background-color: rgb(199, 77, 25);
 }
+/*FOOTER CONTACT*/
+.footer {
+    background-color: #464646;
+}
+h4 {
+    color: white;
+}
+.formulaire label {
+    color: white;
+}
