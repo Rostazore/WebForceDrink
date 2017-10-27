@@ -56,3 +56,32 @@ nav ul li a {
     background: url(../vid/Pour.jpg) no-repeat;
     background-size: cover; 
 }
+
+
+/*------------*
+    Recettes
+*-------------*/
+#recettes h2 {
+    color: black;
+}
+
+#recettes article {
+    border-radius: 10px;
+}
+
+#recettes article hr {
+    margin: 0;
+    padding: 0;
+}
+
+#recettes .original {
+    background-color: rgb(223, 15, 33);
+}
+
+#recettes .mojito {
+    background-color: rgb(160, 195, 54);
+}
+
+#recettes .tropical {
+    background-color: rgb(199, 77, 25);
+}
