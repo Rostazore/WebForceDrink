@@ -15,11 +15,11 @@
 
 <body class="container-fluid">
     <header>
-        <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+        <nav id="naveu" class="navbar navbar-toggleable-md navbar-light bg-faded">
             <span>
                 <a class="navbar-brand" href="#">WebForceDrink</a>
             </span>
-            <span class="collapse navbar-collapse">
+            <span class="collapse navbar-collapse navbar-right">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
                         <a href="#recettes" class="nav-link">Recettes</a>
@@ -51,7 +51,17 @@
 
 
     </footer>
-
+    <script>
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("naveu").style.top = "0";
+            } else {
+                document.getElementById("naveu").style.top = "-62px";
+            }
+        }
+        </script>
 </body>
 
 </html>
