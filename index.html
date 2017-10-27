@@ -15,7 +15,7 @@
 
 <body class="container-fluid">
     <header>
-        <nav id="naveu" class="navbar navbar-toggleable-md navbar-light bg-faded">
+        <nav id="naveu" class="navbar navbar-toggleable-md navbar-light bg-faded navbar-fixed-top">
             <span>
                 <a class="navbar-brand" href="#">WebForceDrink</a>
             </span>
@@ -97,7 +97,7 @@
         window.onscroll = function() {scrollFunction()};
         
         function scrollFunction() {
-            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
                 document.getElementById("naveu").style.top = "0";
             } else {
                 document.getElementById("naveu").style.top = "-62px";
