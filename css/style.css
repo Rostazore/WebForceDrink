@@ -1,0 +1,38 @@
+
+header {
+    height: 1080px;
+    width: 100%;
+    z-index: 100;
+}
+.container-fluid {
+    padding: 0;
+}
+.container-fluid  > .jumbotron {
+    border-radius: 0;
+}
+h2 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 80px;
+
+}
+.jumbotron h1 {
+    color: #f2f0f1;
+    text-align: center;
+    font-size: 100px;
+    margin-top: -10px;
+    padding-bottom: 250px;
+}
+video #bgvid { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background: url(../vid/Pour.jpg) no-repeat;
+    background-size: cover; 
+}
