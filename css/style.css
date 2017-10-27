@@ -56,13 +56,20 @@ nav {
 }
 
 
-/* Recettes */
+/*------------*
+    Recettes
+*-------------*/
 #recettes h2 {
     color: black;
 }
 
 #recettes article {
     border-radius: 10px;
+}
+
+#recettes article hr {
+    margin: 0;
+    padding: 0;
 }
 
 #recettes .original {
