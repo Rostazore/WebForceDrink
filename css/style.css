@@ -9,8 +9,14 @@ nav {
     background-color: black;
     opacity: 0.7;
     margin-bottom: 100px;
+    position: fixed;
+    top: -62px;
+    transition: top 0.3s;
+    display: block;
 }
-
+nav ul li a {
+    color: white;
+}
 
 
 
@@ -145,4 +151,15 @@ nav {
     height: 432px;
     margin: 0;
     background-color: rgb(210, 208, 195);
+}
+
+/*FOOTER CONTACT*/
+.footer {
+    background-color: #464646;
+}
+h4 {
+    color: white;
+}
+.formulaire label {
+    color: white;
 }
