@@ -44,47 +44,61 @@
         </div>
 
     </header>
-    <section id="recettes" class="container-fluid">
+    <section id="recettes">
         <div class="container">
             <h2 class="text-center">Nos recettes</h2>
             <div id="choix_recettes">
                 <div class="row">
-                    <article class="col-md-4 original">
-                        <div>
+                    <span id="energie" class="col-md-3 text-right bouton">ENERGISANTE</span>
+                    <span class="col-md-5"></span>
+                    <span id="fraicheur" class="col-md-3 text-left bouton">DÉSALTÉRANTE</span>
+                </div>
+                <div class="row">
+                    <article class="col-md-3 original">
+                        <header>
                             <h3>Original</h3>
-                        </div>
+                            <img src="img/energizing.svg" alt="energie">
+                        </header>
                         <hr>
                         <p>Boisson énergisante gazeuse, à la taurine et chargée en caféine.</p>
                         <div>
-                            <button>Plus d'infos</button>
-                            <button>Sélectionner</button>
+                            <span class="bouton">Plus d'infos</span>
+                            <span class="bouton">Sélectionner</span>
                         </div>
                     </article>
-                    <article class="col-md-4 mojito">
-                        <div>
+                    <article class="col-md-1 espace"></article>
+                    <article class="col-md-3 mojito">
+                        <header>
                             <h3>Mojito</h3>
-                        </div>
+                            <img src="img/energizing.svg" alt="energie">
+                        </header>
                         <hr>
                         <p>Boisson énergisante gazeuse, saveur mojito à la caféine et sans alcool.</p>
                         <div>
-                            <button>Plus d'infos</button>
-                            <button>Sélectionner</button>
+                            <span class="bouton selection">Plus d'infos</span>
+                            <span class="bouton">Sélectionner</span>
                         </div>
                     </article>
-                    <article class="col-md-4 tropical">
-                        <div>
+                    <article class="col-md-1 espace"></article>
+                    <article class="col-md-3 tropical">
+                        <header>
                             <h3>Tropical</h3>
-                        </div>
+                            <img src="img/cooling.svg" alt="frais">
+                        </header>
                         <hr>
                         <p>Boisson énergisante gazeuse, aux fruits, taurine, caféine et extrait de gingembre.</p>
                         <div>
-                            <button>Plus d'infos</button>
-                            <button>Sélectionner</button>
+                            <span class="bouton">Plus d'infos</span>
+                            <span class="bouton">Sélectionner</span>
                         </div>
                     </article>
                 </div>
             </div>
         </div>
+    </section>
+    <section id="recette">
+        <h4 class="text-center">Votre choix:</h4>
+        <span id="resultat_recette"></span>
     </section>
     <main>
 

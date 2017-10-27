@@ -59,17 +59,74 @@ nav {
 /*------------*
     Recettes
 *-------------*/
+#recettes {
+    margin: 0;
+    background-color: white;
+}
+
 #recettes h2 {
     color: black;
 }
 
+.row {
+    margin: 20px 0;
+}
+
 #recettes article {
+    padding-bottom: 10px;
     border-radius: 10px;
+    color: white;
+}
+
+#recettes article .espace {
+
+}
+
+#recettes article header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#recettes article header h3 {
+    margin: 12px 0 8px 0;
+}
+
+#recettes article header img {
+    width: 20px;
+    height: 20px;
+    margin: 12px 0 8px 0;
 }
 
 #recettes article hr {
     margin: 0;
     padding: 0;
+}
+
+#recettes article p {
+    margin: 4px 0 8px 0;
+}
+
+#recettes article div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bouton {
+    padding: 10px 0;
+}
+
+.bouton:hover {
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.selection {
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 #recettes .original {
@@ -82,4 +139,10 @@ nav {
 
 #recettes .tropical {
     background-color: rgb(199, 77, 25);
+}
+
+#recette {
+    height: 432px;
+    margin: 0;
+    background-color: rgb(210, 208, 195);
 }
